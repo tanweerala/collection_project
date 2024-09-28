@@ -1,0 +1,10 @@
+public class App 
+{
+	public static void main(String[] args) 
+	{
+		Product p1=new Product(101,"Mouse","Logitech",1800);
+		System.out.println(p1);
+		System.out.println(p1.toString());
+		
+	}
+}

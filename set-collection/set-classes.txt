@@ -1,0 +1,23 @@
+HashSet class
+==============
+It is implementation of Set interface
+It creates and uses instance/object of HashMap class to keep elements
+HashSet has all methods of Collection interface
+We can call these methods to manage elements
+
+LinkedHashSet class
+===================
+It is implementation of Set interface and child of HashSet class
+LinkedHashSet maintains insertion order of elements
+
+TreeSet class
+==============
+It is an implementation of SortedSet interface
+SortedSet interface is a child of Set interface
+So TreeSet keep elements in the sorted manner(ascending order or descending order)
+TreeSet calls compareTo() method of Comparable interface to sort elements
+String class and all wrapper classes has already overridden this method
+Class of elements must implement Comparable interface otherwise ClassCastException will be created and thrown by TreeSet collection
+
+
+

@@ -1,0 +1,18 @@
+Creating persistent class
+==========================
+Object of this class will be created by your program and it will be saved into table by hibernate
+This class is also known as entity class
+This class should be a POJO class
+POJO stands for plain old java object
+Those classes that have following properties can be POJO classes
+1)Private instance variables
+2)Default constructor
+3)Getter and Setter
+
+public class Person
+{
+  private int personid;
+  private String name;
+  private int age;
+  //Define getter and setter for each instance variables
+}

@@ -1,0 +1,17 @@
+Collection interface
+=====================
+All collection classes(ArrayList,LinkedList,HashSet class,etc) have implemented this interface either directly or indirectly
+Few methods of Collection interface are as follows
+1)public boolean add(E element)
+2)public boolean remove(E element)
+3)public boolean contains(E element)
+4)public boolean isEmpty()
+5)public int size()
+6)public Iterator iterator()
+etc
+Collection interface has following three child/sub interfaces
+1)List interface
+2)Set interface
+3)Queue interface
+
+

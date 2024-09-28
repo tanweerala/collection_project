@@ -1,0 +1,11 @@
+import java.util.*;
+
+public class ProductRepository 
+{
+	//This class will have methods to manage objects of product in memory by using collection 
+	ArrayList<Product> list=new ArrayList<Product>();
+	public void addProduct(Product product)
+	{
+		list.add(product);
+	}
+}

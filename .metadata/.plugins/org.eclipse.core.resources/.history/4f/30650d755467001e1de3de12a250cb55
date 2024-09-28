@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class App 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList<String> list1=new ArrayList<String>();
+		list1.add("Amit");
+		ArrayList<Product> list2=new ArrayList<Product>();
+		list2.add(new Product());
+		ArrayList list3=new ArrayList();
+		list3.add("Rahul");
+		list3.add(new Product());
+		list2.add(new Customer());
+	}
+}

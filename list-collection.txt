@@ -1,0 +1,20 @@
+List interface
+==============
+It is a sub/child interface of Colleciton interface
+It has following three implementation class
+1)ArrayList class
+2)LinkedList class
+3)Vector class
+These collection classes are known as list collection
+List collection has following features
+1)It is an ordered collection
+2)It allows duplicacy of elements
+3)It allows multiple null
+4)List has index based methods also
+Few index based methods of List interface are as follows
+1)public void add(int index,E element)
+2)public E remove(int index)
+3)public E get(int index)
+4)public E set(int index,E element)
+etc
+Here E is type parameter

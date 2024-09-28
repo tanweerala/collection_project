@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class App5 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList<Person> list=new ArrayList<Person>();
+		list.add(new Person("Amit","Noida",21));
+		list.add(new Person("Manoj","Noida",18));
+		list.add(new Person("Imran","Lucknow",20));
+		list.add(new Person("Kuldeep","Kanpur",28));
+		list.add(new Person("Suman","Delhi",34));
+		list.add(2,new Person("David","Delhi",60));
+		for(Person p:list)
+		{
+			System.out.println(p);
+		}
+	}
+}

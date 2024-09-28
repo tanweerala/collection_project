@@ -1,0 +1,43 @@
+Map interface
+=============
+It is not child of Collection interface
+Map interface has functionality to keep elements in key-value pair
+Map treates each element as value
+put() method of Map interface should be called to add elements into map
+It accepts following two objects
+1)Key
+2)Value
+Key will always be unique in map
+
+HashMap class
+=============
+It is implementation of Map interface
+It keep elements in key-value pair
+Each key-value pair inside map is known as entry
+An object of Map.Entry interface is created to hold both key and value
+
+HashMap<String,String> map=new HashMap<String,String>();
+map.put("amit","9919875298");
+map.put("rahul","5566778899");
+map.put("imran","4455667788");
+
+LinkedHashMap class
+===================
+It is a child of HashMap class and implementation of Map interface
+It maintains insertion order of entries
+
+TreeMap class
+=============
+It is implementation of SortedMap interface
+SortedMap interface is a sub/child interface of Map interface
+TreeMap keep entries in the ascending or descending  order of keys
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+Classes and interfaces of collection framework
+==============================================
+Classes of collection frameworks are implementation of interfaces.Few interfaces are as follows
+1)Iterable interface
+2)Collection interface
+3)List interface
+4)Set interface
+5)SortedSet interface
+6)Queue interface
+7)Deque interface
+etc
+Few classes are as follows
+1)ArrayList class
+2)LinkedList class
+3)Vector class
+4)HashSet class
+5)LinkedHashSet class
+6)PriorityQueue class
+7)Stack class
+8)TreeSet class
+etc
+All interfaces and classes of collection framework are kept into java.util package
+
+How to use colleciton?
+----------------------
+1)Create object of any collection class(such as ArrayList,linkedList,HashSet,etc)
+2)Call methods
+Remember, methods are given in collection classes to manage objects
+
+
+
+
+
+
+
+
+
+
+
+

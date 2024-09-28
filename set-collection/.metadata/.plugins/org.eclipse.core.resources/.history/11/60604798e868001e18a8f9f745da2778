@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class App4 
+{
+	public static void main(String[] args) 
+	{
+		Product p1=new Product("AAA",100);
+		Product p2=new Product("BB",100);
+		
+		int num=p1.compareTo(p2);
+		System.out.println("p1:"+p1);
+	}
+}

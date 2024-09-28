@@ -1,0 +1,10 @@
+public class LinkedList 
+{
+	private Node first=null;
+	private Node last=null;
+	//Method to create node and add node at the end of list
+	public void add(String value)
+	{
+		Node fresh=new Node(value);
+	}
+}

@@ -1,0 +1,16 @@
+Vector class
+=============
+It is an implementation of List interface
+It creates and uses resizable array of size 10 to store/keep elements
+Type of array will be type parameter or Object
+
+Vector class was introduced in JDK1.0 while collection framework was introduced in JDK1.2
+So Vector class is a leagacy class of collection framework
+
+Vector class is a synchronized class while ArrayList class is an unsynchronized class
+
+
+Stack class
+=============
+It is a child of Vector class
+It means stack class can be used as list collection as well as stack

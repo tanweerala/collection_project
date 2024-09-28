@@ -1,0 +1,34 @@
+public class LinkedList 
+{
+	//In this variable linked list will keep reference of first node
+	private Node first=null;
+	//In this variable linked list will keep reference of last node
+	private Node last=null;
+	//Method to create node and add node at the end of list
+	public void add(String value)
+	{
+		Node fresh=new Node(value);
+		//If list has no node then make this node first as well as last
+		if(first==null)
+		{
+			first=fresh;
+			last=fresh;
+			return;
+		}
+		//If list has already node/nodes then make this node last node
+		fresh.previous=last;
+		last.next=fresh;
+		last=fresh;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

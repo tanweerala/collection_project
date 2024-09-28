@@ -1,0 +1,24 @@
+Wrapper classes
+===============
+Wrapper class is used to convert primitive type value into object
+Wrapper class is given for each primitive data type
+
+byte-->Byte
+short-->Short
+int-->Integer
+long-->Long
+float-->Float
+double-->Double
+boolean-->Boolean
+char-->Character
+
+double num=90.90;
+Double num=90.90;
+
+Autoboxing
+==========
+Creating object of wrapper class aurometically and keeping primitive type value into that object is called autoboxing.This feature of java was introduced in jdk1.5
+
+
+
+

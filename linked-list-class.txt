@@ -1,0 +1,7 @@
+LinkedList class
+================
+It is an implementation of List interface as well as Deque interface
+It creates and uses doubly linked list to keep elements
+
+When to use ArrayList as list collection?Remember ArrayList class creates and uses array to store elements
+When to use LinkedList as list collection??Remember LinkedList class creates and uses doubly linked list to store elements

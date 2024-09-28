@@ -1,0 +1,26 @@
+Creating cfg file
+==================
+This is an xml file
+In this file we will have to configure following information
+1)HBM2DDL auto propery
+2)Show sql property
+3)Hibernate dialect
+4)Driver class name
+5)Database url
+6)User name
+7)Password
+etc
+This configuration will be used by hibernate to perform database operations
+
+<hibernate-configuration>  
+    <session-factory>  
+        <property name="hbm2ddl.auto">update</property>  
+        <property name="show_sql">true</property>  
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>  
+        <property name="connection.url">jdbc:mysql://localhost/hibernate10</property>  
+        <property name="connection.username">root</property>  
+        <property name="connection.password">mysql</property>  
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>  
+	<mapping resource="hibernate.hbm.xml"/>  
+    </session-factory>  
+</hibernate-configuration> 

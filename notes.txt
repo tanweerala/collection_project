@@ -1,0 +1,23 @@
+Collection framework
+=====================
+This framework was introduced in JDK1.2
+Java program can use this framework to manage data(objects) in memory
+As we know object will container of data
+What your program will do?
+Your program will create objects with data
+Your program give these objects to the collection framework
+Collection framework will manage these objects
+Following tasks can be performed by collection framework
+1)Adding new objects
+2)Removing existing objects
+3)Searching objects
+4)Iterating/traversing objects
+5)Sorting objects
+etc
+Methods are given in collection framework
+Our program will call these methods as per requirement
+
+
+
+
+

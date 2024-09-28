@@ -1,0 +1,5 @@
+public class App 
+{
+	String[] x=new String[3];
+	x[0]=new String("Rahul"); 
+}

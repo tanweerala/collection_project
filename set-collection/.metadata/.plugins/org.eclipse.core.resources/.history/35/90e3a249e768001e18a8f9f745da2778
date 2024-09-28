@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class App3 
+{
+	public static void main(String[] args) 
+	{
+		HashSet<Product> set=new HashSet<Product>();
+		set.add(new Product("Mobile",50000));
+		set.add(new Product("Mobile",50000));
+		set.add(new Product("Laptop",70000));
+		set.add(new Product("Printer",10000));
+		set.add(new Product("Mouse",1000));
+		set.add(new Product("Mouse",1000));
+		for(Product p:set)
+		{
+			System.out.println(p);
+		}
+	}
+}

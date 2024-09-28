@@ -1,0 +1,14 @@
+Set collection
+==============
+Set is an interface and it is child of Collection interface
+It has following implementation class
+1)HashSet class
+2)LinkedHashSet class
+
+Set colleciton has following features
+1)It is mostly unordered
+2)It does not allow duplicacy of elements
+3)It allows single null
+4)It does not have index based methods
+etc
+

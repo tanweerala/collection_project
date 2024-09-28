@@ -1,0 +1,100 @@
+public class LinkedList 
+{
+	//In this variable linked list will keep reference of first node
+	private Node first=null;
+	//In this variable linked list will keep reference of last node
+	private Node last=null;
+	//Method to create node and add node at the end of list
+	public void add(String value)
+	{
+		Node fresh=new Node(value);
+		//If list has no node then make this node first as well as last
+		if(first==null)
+		{
+			first=fresh;
+			last=fresh;
+			return;
+		}
+		//If list has already node/nodes then make this node last node
+		fresh.previous=last;
+		last.next=fresh;
+		last=fresh;
+	}//end of add()
+	//Method to create node and add node at the end of list
+	public void addLast(String value)
+	{
+		add(value);
+	}
+	//Method to create node and add node at the begin of list
+	public void addFirst(String value)
+	{
+		Node fresh=new Node(value);
+		//If list has no node then make this node first as well as last
+		if(first==null)
+		{
+			first=fresh;
+			last=fresh;
+			return;
+		}
+		//If list has already node/nodes then make this node first node
+		fresh.next=first;
+		first.previous=fresh;
+		first=fresh;
+	}
+	public void add(int index,String value)
+	{
+		int x=size();
+		if(index<0 || index>x)
+		{
+			throw new IndexOutOfBoundsException("Index:"+ index+", Size:"+ x);
+		}
+		if(index==0)
+		{
+			addFirst(value);
+			return;
+		}
+		if(index==x)
+		{
+			addLast(value);
+			return;
+		}
+		//If given index is not 0 or size of list then add node between two nodes(Node at index-1 and at index)
+		//Find reference of node at index specified index
+		Node cur=first;
+		for(int c=0;c<index;c++)
+		{
+			cur=cur.next;
+		}
+		Node fresh=new Node(value);
+		Node curp=cur.previous;
+		curp.next=fresh;
+		fresh.previous=curp;
+		fresh.next=cur;
+		cur.previous=fresh;
+	}
+	public int size()
+	{
+		int count=0;
+		Node cur=first;
+		while(cur!=null)
+		{
+			count++;
+			cur=cur.next;
+		}
+		return count;
+	}
+	public String toString()
+	{
+		if(first==null)
+			return "[]";
+		Node cur=first;
+		String res="["+cur.element;
+		while(cur.next!=null)
+		{
+			cur=cur.next;
+			res=res+", "+cur.element;
+		}
+		res=res+"]";
+		return res;
+	}
+}

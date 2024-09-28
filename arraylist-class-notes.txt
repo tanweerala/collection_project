@@ -1,0 +1,23 @@
+ArrayList class
+===============
+It is an implementation of List interface
+It means ArrayList class has implemented all methods of List interface
+ArrayList creates and uses resizable array of size 10 and type E to store/hold elements
+(Remember size of the array is fixed in can't be changed)
+int newCapacity = oldCapacity + (oldCapacity >> 1);
+
+ArrayList<String> list1=new ArrayList<String>();
+This collection will create and resizable array of type String and size 10 to store elements
+It means in above collection our program can keep String type elements(Reference of String class object)
+
+ArrayList<Product> list2=new ArrayList<Product>();
+This collection will create and resizable array of type Product and size 10 to store elements
+It means in above collection our program can keep Product type elements(Reference of Product class object)
+
+ArrayList list3=new ArrayList();
+This collection will create and resizable array of type Object and size 10 to store elements
+It means in above collection our program can keep every type elements(Reference of every java class object)
+
+
+
+

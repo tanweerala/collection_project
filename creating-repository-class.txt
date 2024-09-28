@@ -1,0 +1,10 @@
+Creating repository/dao class
+------------------------------
+Define a class and write code to perform database operation inside this class
+Remember database operation will be performed by hibernate not your program
+Use following interfaces of hibernate inside this class
+1)SessionFactory interface
+2)Session interface
+3)Transaction interface
+etc
+Our program(repository class) will call methods of these interfaces to perform database opreations

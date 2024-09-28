@@ -1,0 +1,11 @@
+import java.util.ArrayList;
+
+public class App 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList<String> list1=new ArrayList<String>();
+		ArrayList<Product> list2=new ArrayList<Product>();
+		ArrayList list3=new ArrayList();
+	}
+}

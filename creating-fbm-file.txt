@@ -1,0 +1,23 @@
+Creating hbm file
+=================
+(hbm means hibernate mapping)
+This(hbm file) is an xml file
+We will have to create this file
+In this file we will have to configure mapping between persistent class and table
+This configuration will be used by hibernate
+
+<hibernate-mapping> 
+  <class name="com.cetpa.Person" table="personinfo">
+   <id name="pid" column="pid">
+    <generator class="assigned" />
+   </id>
+   <property name="name" column="name"/>
+   <property name="address" column="address"/>
+   <property name="phone" column="phone"/>
+  </class>	   
+</hibernate-mapping>  
+
+Keep hbm file into src folder
+
+
+
